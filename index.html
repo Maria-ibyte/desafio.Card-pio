@@ -3,21 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sabor & Arte</title>
+    <title>Sabores da Vila</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <style>
+      .whatsapp-link{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+  }
+
+  .fa-whatsapp {
+    margin-top: 16px;
+    
+  }
+    </style>
   </head>
   <body>
     <header>
-      <h1>SABOR & ARTE</h1>
+      <h1>SABORES DA VILA</h1>
       <p>Culinária contemporânea com toques tradicionais</p>
       <div class="info">
-        <span>📍 Rua das Flores, 123</span>
-        <span>📞 (11) 99999-9999</span>
-        <span>🕒 Ter-Dom: 11h às 23h</span>
+        <span>Endereço: Avenida Central, 987 - Centro</span>
+        <span>Telefone: (11) 99999-9999</span>
+        <span>Horários: Ter-Dom: 19h até 00h</span>
       </div>
     </header>
 
     <main>
+      <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5585982215380" target="_blank">
+        <i class ="fa fa-whatsapp"></i>
+      </a>
       <section class="menu-section">
         <h2>Nosso Cardápio</h2>
         <p class="subtitle">
@@ -35,7 +61,7 @@
 
         <div class="menu-grid">
             <div class="card">
-              <img src="./imagens/risoto de congumelo.avif" alt="Risoto de Cogumelos">
+              <img src="./imagens/risoto de congumelo mod.jpg" alt="Risoto de Cogumelos">
               <div class="card-content">
                 <h3>Risoto de Cogumelos <span class="price">R$ 42,90</span></h3>
                 <p>Arroz cremoso com cogumelos frescos, parmesão e vinho branco.</p>
@@ -43,7 +69,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/Salada Caesar.jpg" alt="Salada Caesar">
+              <img src="./imagens/Salada Caesar mod.jpg" alt="Salada Caesar">
               <div class="card-content">
                 <h3>Salada Caesar <span class="price">R$ 35,90</span></h3>
                 <p>Folhas crocantes, frango grelhado, parmesão e molho caesar.</p>
@@ -51,7 +77,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/Bruschetta de Tomate.jpg" alt="Bruschetta de Tomate">
+              <img src="./imagens/Bruschetta de Tomate mod.jpg" alt="Bruschetta de Tomate">
               <div class="card-content">
                 <h3>Bruschetta de Tomate <span class="price">R$ 28,90</span></h3>
                 <p>Pão tostado com tomate, manjericão e azeite extravirgem.</p>
@@ -59,7 +85,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/filé ao molho.jpg" alt="Filé ao Molho Madeira">
+              <img src="./imagens/Filé ao Molho Madeira mod.jpg" alt="Filé ao Molho Madeira">
               <div class="card-content">
                 <h3>Filé ao Molho Madeira <span class="price">R$ 49,90</span></h3>
                 <p>Filé mignon ao molho madeira com purê de batata rústico.</p>
@@ -67,7 +93,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/lasanha de frango.avif" alt="Lasanha de Frango">
+              <img src="./imagens/Lasanha de Frango mod.jpg" alt="Lasanha de Frango">
               <div class="card-content">
                 <h3>Lasanha de Frango <span class="price">R$ 36,50</span></h3>
                 <p>Camadas de massa, frango desfiado, molho branco e queijo.</p>
@@ -75,7 +101,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/salmão grelhado.avif" alt="Salmão Grelhado">
+              <img src="./imagens/Salmão Grelhado mod.jpg" alt="Salmão Grelhado">
               <div class="card-content">
                 <h3>Salmão Grelhado <span class="price">R$ 58,00</span></h3>
                 <p>Posta de salmão com legumes ao vapor e molho de ervas.</p>
@@ -83,7 +109,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/penne ao pesto.jpg" alt="Penne ao Pesto">
+              <img src="./imagens/penne ao pesto mod.jpg" alt="Penne ao Pesto">
               <div class="card-content">
                 <h3>Penne ao Pesto <span class="price">R$ 31,90</span></h3>
                 <p>Macarrão penne com molho pesto caseiro e queijo parmesão.</p>
@@ -91,7 +117,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/Petit Gâteau.jpg" alt="Petit Gâteau">
+              <img src="./imagens/Petit Gâteau mod.jpg " alt="Petit Gâteau">
               <div class="card-content">
                 <h3>Petit Gâteau <span class="price">R$ 22,00</span></h3>
                 <p>Bolo de chocolate com recheio quente e sorvete de creme.</p>
@@ -99,7 +125,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/pudim de leite.avif" alt="Pudim de Leite">
+              <img src="./imagens/pudim de leite mod.jpg" alt="Pudim de Leite">
               <div class="card-content">
                 <h3>Pudim de Leite <span class="price">R$ 14,90</span></h3>
                 <p>Receita tradicional com calda de caramelo feita na hora.</p>
@@ -107,7 +133,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/suco de frutas.jpg" alt="Suco de Frutas">
+              <img src="./imagens/suco de frutas mod.jpg" alt="Suco de Frutas">
               <div class="card-content">
                 <h3>Suco de Frutas <span class="price">R$ 9,50</span></h3>
                 <p>Sabores naturais de laranja, manga, melancia ou abacaxi.</p>
@@ -115,7 +141,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/café espresso.avif" alt="Café Espresso">
+              <img src="./imagens/Café Expresso mod.jpg" alt="Café Espresso">
               <div class="card-content">
                 <h3>Café Espresso <span class="price">R$ 6,00</span></h3>
                 <p>Café encorpado e aromático preparado na hora.</p>
@@ -123,7 +149,7 @@
             </div>
           
             <div class="card">
-              <img src="./imagens/mojito.avif" alt="Mojito">
+              <img src="./imagens/mojito mod.jpg" alt="Mojito">
               <div class="card-content">
                 <h3>Mojito <span class="price">R$ 18,00</span></h3>
                 <p>Coquetel refrescante de rum, hortelã, limão e água com gás.</p>

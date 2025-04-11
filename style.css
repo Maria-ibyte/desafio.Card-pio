@@ -6,12 +6,11 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f9f9f9;
     color: #333;
   }
   
   header {
-    background: linear-gradient(#377D22, #FFFFFF);
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(55, 125, 34, 1) 100%);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem 1rem;
@@ -122,13 +121,32 @@
   footer {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #7D4616;
+    background: linear-gradient(#FFFFFF, #377D22);
     font-size: 0.9rem;
-    color: #7D4616;
     margin-top: 3rem;
   }
   
   img{
     width: 200px;
     height:200px;
+  }
+
+  #botao{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+  }
+
+  .fa-whatsapp {
+    margin-top: 16px;
+
   }
